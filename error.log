@@ -1,0 +1,57 @@
+
+ npm start
+
+> nowa-tmp-antdmobile@1.0.0 start /Users/xiaoyan/Desktop/NowaProject/nowa-tmp-antdmobile
+> nowa server
+
+Listening at http://192.168.43.7:8000
+webpack: wait until bundle finished: /
+webpack built 6d59dc78ec87fa178e62 in 17139ms
+Hash: 6d59dc78ec87fa178e62
+Version: webpack 1.13.3
+Time: 17139ms
+ Asset     Size  Chunks             Chunk Names
+app.js  5.61 MB       0  [emitted]  app
+webpack: bundle is now VALID.
+webpack: bundle is now INVALID.
+webpack building...
+webpack built 9692e0af37e8f6b42bdb in 6197ms
+Hash: 9692e0af37e8f6b42bdb
+Version: webpack 1.13.3
+Time: 6197ms
+                               Asset      Size  Chunks       Chunk Names
+                              app.js   5.75 MB       0       app
+0.6d59dc78ec87fa178e62.hot-update.js    171 kB       0       app
+6d59dc78ec87fa178e62.hot-update.json  36 bytes               
+
+ERROR in ./~/.npminstall/_antd-mobile@1.3.0@antd-mobile/lib/input-item/style/assets/Backspace.png
+Module parse failed: /Users/xiaoyan/Desktop/NowaProject/nowa-tmp-antdmobile/node_modules/.npminstall/_antd-mobile@1.3.0@antd-mobile/lib/input-item/style/assets/Backspace.png Unexpected character '�' (1:0)
+You may need an appropriate loader to handle this file type.
+SyntaxError: Unexpected character '�' (1:0)
+    at Parser.pp$4.raise (/Users/xiaoyan/.nowa/install/_acorn@3.3.0@acorn/dist/acorn.js:2221:15)
+    at Parser.pp$7.getTokenFromCode (/Users/xiaoyan/.nowa/install/_acorn@3.3.0@acorn/dist/acorn.js:2756:10)
+    at Parser.pp$7.readToken (/Users/xiaoyan/.nowa/install/_acorn@3.3.0@acorn/dist/acorn.js:2477:17)
+    at Parser.pp$7.nextToken (/Users/xiaoyan/.nowa/install/_acorn@3.3.0@acorn/dist/acorn.js:2468:15)
+    at Parser.parse (/Users/xiaoyan/.nowa/install/_acorn@3.3.0@acorn/dist/acorn.js:515:10)
+    at Object.parse (/Users/xiaoyan/.nowa/install/_acorn@3.3.0@acorn/dist/acorn.js:3098:39)
+    at Parser.parse (/Users/xiaoyan/.nowa/install/_webpack@1.13.3@webpack/lib/Parser.js:902:15)
+    at NormalModule.<anonymous> (/Users/xiaoyan/.nowa/install/_webpack@1.13.3@webpack/lib/NormalModule.js:104:16)
+    at NormalModule.onModuleBuild (/Users/xiaoyan/.nowa/install/_webpack-core@0.6.9@webpack-core/lib/NormalModuleMixin.js:310:10)
+    at nextLoader (/Users/xiaoyan/.nowa/install/_webpack-core@0.6.9@webpack-core/lib/NormalModuleMixin.js:275:25)
+ @ /Users/xiaoyan/.nowa/install/_css-loader@0.23.1@css-loader?sourceMap!./~/.npminstall/_antd-mobile@1.3.0@antd-mobile/lib/input-item/style/index.css 6:3258-3291
+
+ERROR in ./~/.npminstall/_antd-mobile@1.3.0@antd-mobile/lib/input-item/style/assets/Hide.png
+Module parse failed: /Users/xiaoyan/Desktop/NowaProject/nowa-tmp-antdmobile/node_modules/.npminstall/_antd-mobile@1.3.0@antd-mobile/lib/input-item/style/assets/Hide.png Unexpected character '�' (1:0)
+You may need an appropriate loader to handle this file type.
+SyntaxError: Unexpected character '�' (1:0)
+    at Parser.pp$4.raise (/Users/xiaoyan/.nowa/install/_acorn@3.3.0@acorn/dist/acorn.js:2221:15)
+    at Parser.pp$7.getTokenFromCode (/Users/xiaoyan/.nowa/install/_acorn@3.3.0@acorn/dist/acorn.js:2756:10)
+    at Parser.pp$7.readToken (/Users/xiaoyan/.nowa/install/_acorn@3.3.0@acorn/dist/acorn.js:2477:17)
+    at Parser.pp$7.nextToken (/Users/xiaoyan/.nowa/install/_acorn@3.3.0@acorn/dist/acorn.js:2468:15)
+    at Parser.parse (/Users/xiaoyan/.nowa/install/_acorn@3.3.0@acorn/dist/acorn.js:515:10)
+    at Object.parse (/Users/xiaoyan/.nowa/install/_acorn@3.3.0@acorn/dist/acorn.js:3098:39)
+    at Parser.parse (/Users/xiaoyan/.nowa/install/_webpack@1.13.3@webpack/lib/Parser.js:902:15)
+    at NormalModule.<anonymous> (/Users/xiaoyan/.nowa/install/_webpack@1.13.3@webpack/lib/NormalModule.js:104:16)
+    at NormalModule.onModuleBuild (/Users/xiaoyan/.nowa/install/_webpack-core@0.6.9@webpack-core/lib/NormalModuleMixin.js:310:10)
+    at nextLoader (/Users/xiaoyan/.nowa/install/_webpack-core@0.6.9@webpack-core/lib/NormalModuleMixin.js:275:25)
+ @ /Users/xiaoyan/.nowa/install/_css-loader@0.23.1@css-loader?sourceMap!./~/.npminstall/_antd-mobile@1.3.0@antd-mobile/lib/input-item/style/index.css 6:3506-3534
